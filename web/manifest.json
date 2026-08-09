@@ -1,0 +1,11 @@
+{
+    "name": "growthBox",
+    "short_name": "growthBox",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#FCBB00",
+    "description": "Manage your notes and todos with AI. Simple, fast, and intelligent.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false
+}
