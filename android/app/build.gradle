@@ -24,8 +24,8 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.growthbox.app"
-    compileSdk 34
-    ndkVersion "25.1.8937393"
+    compileSdk flutter.compileSdkVersion
+    ndkVersion flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
@@ -42,8 +42,8 @@ android {
 
     defaultConfig {
         applicationId "com.growthbox.app"
-        minSdk 21
-        targetSdk 34
+        minSdk flutter.minSdkVersion
+        targetSdk flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
